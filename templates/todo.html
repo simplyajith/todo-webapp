@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo app page</title>
+</head>
+<body>
+<h1> This is the todo page</h1>
+<!--<ul style="list-style-type:square;">-->
+  <!--<li>To do item -1</li>-->
+  <!--<li>To do item - 2</li>-->
+  <!--<li>To do item - 3</li>-->
+<!--</ul>-->
+
+<ul style="list-style-type:square;">
+    {% for item in all_items %}
+        <li>{{ item.content }}
+        <form action="/deleteTodo/{{item.id}}"
+              style = "display: inline" method="post" > {% csrf_token %}
+            &emsp;
+            <input type="submit" value = "Delete" />
+        </form>
+            </li>
+    {% endfor %}
+</ul>
+
+<form action="/addTodo/" method="post" > {% csrf_token %}
+    To-Do:<br>
+    <input type="text" name = "content" />
+    <input type="submit" value = "Add" />
+</form>
+
+</body>
+</html>
