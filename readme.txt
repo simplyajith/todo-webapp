@@ -1,15 +1,17 @@
-Microsoft Windows [Version 10.0.10586]
-(c) 2015 Microsoft Corporation. All rights reserved.
 
-C:\Users\ajith>python
-Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:05:16) [MSC v.1915 32 bit (Intel)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
->>> ^Z
+This is a simple app, where user will be able to 
 
+1) Add list of tasks they planned to do
 
-C:\Users\ajith>cd ..
+2) Delete list of tasks which was already added
 
-C:\Users>cd ..
+3) List the tasks added.
+
+Reference:
+https://www.youtube.com/watch?v=ovql0Ui3n_I&t=606s
+
+Installation:
+-------------------------------------------------------------------------------------------------------------------
 
 C:\>cd App_Dojo
 
