@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/App_Dojo.iml" filepath="$PROJECT_DIR$/.idea/App_Dojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../restapi_project/profiles-rest-api/.idea/profiles-rest-api.iml" filepath="$PROJECT_DIR$/../restapi_project/profiles-rest-api/.idea/profiles-rest-api.iml" />
     </modules>
   </component>
 </project>
